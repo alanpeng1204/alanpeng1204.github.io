@@ -104,9 +104,9 @@
 </head>
 <body>
 
-<header>
+<!--header>
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <!-- Self Image -->
+
     <img src="photo_peng.jpg" alt="Alan Peng" style="width:150px; height:150px; border-radius:50%; object-fit:cover; border:3px solid white; margin-bottom:1rem;">
     
     <h1>Hao-Lun Peng</h1>
@@ -119,7 +119,33 @@
       <a href="#contact">Contact</a>
     </nav>
   </div>
+</header-->
+
+<!-- Header with full-width background -->
+<header style="background-color: #0b3d91; color: white; padding: 2rem 0;">
+
+  <!-- Inner container aligned with body -->
+  <div style="max-width: 900px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem;">
+    
+    <!-- Portrait (Left) -->
+    <div style="flex: 0 0 150px;">
+      <img src="photo_peng.jpg" alt="Hao-Lun Peng"
+           style="width: 100%; height: 180px; object-fit: cover; object-position: center 35%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    </div>
+
+    <!-- Header Text (Right) -->
+    <div style="flex: 1; min-width: 200px;">
+      <h1 style="margin: 0; font-size: 4rem;">Hao-Lun Peng</h1>
+      <p style="margin: 0.5rem 0 0; line-height: 1.5;">
+        Researcher in Computer Vision, Computer Graphics, XR, and HCI.  
+      </p>
+    </div>
+
+  </div>
 </header>
+
+
+
 
 <main>
   <section id="education">
@@ -220,6 +246,7 @@
     <h2>Contact</h2>
     <ul>
       <li>Email: mxda940107(at)hotmail.com</li>
+      <li>Github: github.com/alanpeng1204</li>
     </ul>
   </section>
 </main>
